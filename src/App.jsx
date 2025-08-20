@@ -5,6 +5,7 @@ const API = process.env.REACT_APP_API_URL || 'http://localhost:5000';
 function App() {
   const [todos, setTodos] = useState([]);
   const [title, setTitle] = useState("");
+  console.log(API,'this is the api form the compose environment')
 
   useEffect(() => {
     fetchTodos();
