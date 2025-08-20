@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API = process.env.REACT_APP_API_URL || 'http://backend:5000';
+const API = process.env.REACT_APP_API_URL || 'http://backend:5000/api';
 
 function App() {
   const [todos, setTodos] = useState([]);
